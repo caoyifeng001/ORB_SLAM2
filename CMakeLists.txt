@@ -49,25 +49,25 @@ ${Pangolin_INCLUDE_DIRS}
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 
 add_library(${PROJECT_NAME} SHARED
-src/System.cc
-src/Tracking.cc
-src/LocalMapping.cc
-src/LoopClosing.cc
-src/ORBextractor.cc
-src/ORBmatcher.cc
-src/FrameDrawer.cc
-src/Converter.cc
-src/MapPoint.cc
-src/KeyFrame.cc
-src/Map.cc
-src/MapDrawer.cc
-src/Optimizer.cc
-src/PnPsolver.cc
-src/Frame.cc
-src/KeyFrameDatabase.cc
-src/Sim3Solver.cc
-src/Initializer.cc
-src/Viewer.cc
+src/System.cpp
+src/Tracking.cpp
+src/LocalMapping.cpp
+src/LoopClosing.cpp
+src/ORBextractor.cpp
+src/ORBmatcher.cpp
+src/FrameDrawer.cpp
+src/Converter.cpp
+src/MapPoint.cpp
+src/KeyFrame.cpp
+src/Map.cpp
+src/MapDrawer.cpp
+src/Optimizer.cpp
+src/PnPsolver.cpp
+src/Frame.cpp
+src/KeyFrameDatabase.cpp
+src/Sim3Solver.cpp
+src/Initializer.cpp
+src/Viewer.cpp
 )
 
 target_link_libraries(${PROJECT_NAME}

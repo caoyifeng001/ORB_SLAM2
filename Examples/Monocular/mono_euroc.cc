@@ -30,6 +30,7 @@
 
 using namespace std;
 
+//vstrImages vTimeStamps 保存图像具体目录和时间戳
 void LoadImages(const string &strImagePath, const string &strPathTimes,
                 vector<string> &vstrImages, vector<double> &vTimeStamps);
 
